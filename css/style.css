@@ -1,3 +1,4 @@
+
 h1 {
     font-size: 50px;
 }
@@ -8,8 +9,9 @@ h1 {
 .bg {
     background: #ff4500;
 }
-section{
+.container-flex{
     display: flex;
+    margin-bottom: 100px;
 }
 .half{
     width: 50%;
@@ -36,4 +38,40 @@ section{
 body {
     margin: 0;
     font-family: 'Festive', cursive;
+
+}
+.dream{
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left ;
+}
+
+.full{
+    
+    
+    margin-left: 10px;
+    margin-right: 25px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px gray;
+    border-radius: 20px;
+    border-left: 2px solid rgb(243, 45, 19);
+    border-top: 2px solid rgb(243, 45, 19);
+    
+}
+
+.web{
+    
+    margin-left: 25px;
+    margin-right: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px gray;
+    border-radius: 20px;
+    border-left: 2px solid rgb(243, 45, 19);
+    border-top: 2px solid rgb(243, 45, 19);
+   
 }
